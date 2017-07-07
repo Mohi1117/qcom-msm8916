@@ -17,3 +17,6 @@ VENDOR_PATH := device/qcom/msm8916-common
 
 # Include board config fragments
 include $(VENDOR_PATH)/board/*.mk
+
+# CMHW
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/src
